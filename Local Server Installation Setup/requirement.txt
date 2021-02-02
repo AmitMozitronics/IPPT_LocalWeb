@@ -1,0 +1,7 @@
+django
+django-cors-headers
+xlwt
+wfastcgi
+requests
+
+python manage.py loaddata local__data_db.json
