@@ -179,8 +179,6 @@ def GetStringGetMethod(request):
 
 
 
-
-
 def get_synced_data(request):
     mid = request.GET.get('a', None)
     b = request.GET.get('b', None)
@@ -300,9 +298,6 @@ def get_synced_data(request):
     else:
        return HttpResponse(status=400)
     
-
-    
-
 
 
 
